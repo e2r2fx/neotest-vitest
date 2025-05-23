@@ -305,7 +305,6 @@ function adapter.build_spec(args)
   end
 
   vim.list_extend(command, {
-    "--watch=false",
     "--reporter=verbose",
     "--reporter=json",
     "--outputFile=" .. results_path,
